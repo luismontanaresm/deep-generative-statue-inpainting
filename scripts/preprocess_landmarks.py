@@ -3,6 +3,7 @@ import cv2
 import dlib
 import argparse
 import json
+from tqdm import tqdm
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--path', type=str, help='path to the celeba img_align_celeba folder')
@@ -16,7 +17,7 @@ MODEL_PATH = 'pretrained_models/dlib_68_face_landmarks_predictor.dat'
 predictor = dlib.shape_predictor(MODEL_PATH)
 filenames = os.listdir(input_path)
 landmarks_obj = dict()
-for filename in filenames:
+for filename in tqdm(filenames):
     face = dlib.rectangle(0, 0, 128, 128)
     img = cv2.imread(f'{input_path}/{filename}')
     landmarks = predictor(img, face)
