@@ -5,7 +5,6 @@ Masters thesis work (WIP)
 ### Landmark Detector on Face Statues with Missing Information
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/12qxhFkJNdX8NbPESIDt_rnJurcsGvUW8?usp=sharing)
-
 [![Static Badge](https://img.shields.io/badge/view_.ipynb-code-blue)](https://colab.research.google.com/drive/12qxhFkJNdX8NbPESIDt_rnJurcsGvUW8?usp=sharing)
 
 
