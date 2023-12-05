@@ -14,3 +14,7 @@ Masters thesis work (WIP)
 
 ### Landmark Guided Inpainting on Face Statues with Missing Information
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1vKfxtkLlhh8DV_hajKiqzij3_oZ71d1c/view?usp=sharing)
+[![Static Badge](https://img.shields.io/badge/view_.ipynb-code-blue)](https://github.com/luismontanaresm/deep-generative-statue-inpainting/blob/main/notebooks/landmark_guided_statue_inpainting.ipynb)
+
+
+
