@@ -78,8 +78,6 @@ They are both trained concurrently to improve the quality of synthesized images 
 generator. In this process, when discriminator get better results at distinguishing real images
 from fake images, the generator will have to synthesize better image completion to fool the
 discriminator.
-Figure 4.6: Face statue images with masked regions missing different percentages of facial
-pixels
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1vKfxtkLlhh8DV_hajKiqzij3_oZ71d1c/view?usp=sharing)
 [![Static Badge](https://img.shields.io/badge/view_.ipynb-code-blue)](https://github.com/luismontanaresm/deep-generative-statue-inpainting/blob/main/notebooks/landmark_guided_statue_inpainting.ipynb)
